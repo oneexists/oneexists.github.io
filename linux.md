@@ -6,4 +6,4 @@ Linux systems do not require the typical antivirus software that is often packag
 
 The easiest way to start maintain a more secure Linux machine is to install updates regularly. Some distributions offer an Update Manager to give an alternative to the traditional terminal commands. One way to ensure files are protected on your machine is to double check that the home partition of the system is encrypted and that file permissions are set to limit access to only those users who need access to them. This helps espeically for systems with multiple users who want to ensure isolation between their files.
 
-More information about security on Linux, zonker's article "[Five Things to Know About Linux Security][https://www.linux.com/news/five-things-know-about-linux-security/]" provides more information on the topic.
+More information about security on Linux, zonker's article "[Five Things to Know About Linux Security](https://www.linux.com/news/five-things-know-about-linux-security/)" provides more information on the topic.
