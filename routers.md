@@ -1,0 +1,7 @@
+## Security Considerations for your Home Internet Connection
+
+Some initial considerations to take when upgrading the security of your home internet connection could include switching to using a separate router and modem rather than a combined unit. When choosing a new router, one thing to consider is whether or not the router allows for a router VPN as this is another way to increase the security of your connection.
+
+Many ISPs will offer rental routers and while this may be an appealing option due to its ease in installation and low initial cost, these devices provide less security and can be compromised on arrival if it has not been properly reset. There is also a temptation to secure your connection with an easier password for the whole household to remember or keep a default password, but this is also unadvisable as it increases likelihood of allowing remote users access to the router.
+
+For more information on these topics and steps for locking down your home router, Paul Wagenseil provides background on these and more security vulnerabilities in "[Your router's security stinks: Here's how to fix it](https://www.tomsguide.com/us/home-router-security,news-19245.html)".
