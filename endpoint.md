@@ -1,0 +1,9 @@
+## Endpoint Security in a Remote World
+
+With the sudden increase in remote working, many organizations have had to shift their network to adapt from serving employees in their office to supporting them from a remote location. This shift makes endpoint security an important topic for anyone who has started using remote technologies professionally and even those who have previous experience.
+
+With regular news stories about security vulnerabilities of all kinds being exploited on devices and the shift to an increased usage of personal devices to connect to secure networks for remote work, this opens up the organization's network to a variety of devices that create a variety of possible security threats.
+
+Within a network, the configuration of security software on individual devices, along with any application updates, are downloaded once and pushed from the server to the device to ensure enforcement of the usage policy across the network. Encryption and application control can also be enabled to limit possible data leaks and prevent execution of unauthorized applications.
+
+Digital Guardian's Blog contains a post from Nate Lord called ["What is Endpoint Security? Data Protection 101"](https://digitalguardian.com/blog/what-endpoint-security-data-protection-101) that provides more background and further information about the importance of endpoint security.
