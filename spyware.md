@@ -1,0 +1,7 @@
+## Spyware or Just Advertising
+
+With the shift across the internet to follow regulations regarding the use of cookies, it has become more clear to the average user just how often they are used across the internet to improve the functionality of the website. What becomes more difficult to discern is where the line is drawn as far as what is acceptable use of data collection when it comes to collecting advertising data versus crossing the line and violating the user's privacy. When it comes to this type of data collection, it is often used to generate revenue for its creator, which adds social significance to the transaction.
+
+In a time where personal data is regularly exchanged through the internet, it is important to take some time to review some security practices to limit opportunities for personal data to be stolen. Many accounts and transactions that take place online include terms and services to agree to, which often implicates some sharing of personal data. One way to start to limit access to private data is to practice discretion with creating new accounts online. Another practice that could be done to protect against spyware would be to ensure that you are keeping your browser up to date and have become familiar with its protection against spyware. 
+
+For further reading, Webroot's article dives deeper into ["What is Spyware?"](https://www.webroot.com/us/en/resources/tips-articles/what-is-spyware-and-how-to-detect-it) with more tips and information about protection against spyware.
