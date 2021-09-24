@@ -12,5 +12,7 @@ Here you can find posts I've made about computer security:
 
 [Endpoint Security in a Remote World](https://oneexists.github.io/endpoint)
 
+[Increasing Firefox's Privacy Experience](https://oneexists.github.io/firefox)
+
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
