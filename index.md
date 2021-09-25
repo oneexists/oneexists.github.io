@@ -14,5 +14,7 @@ Here you can find posts I've made about computer security:
 
 [Increasing Firefox's Privacy Experience](https://oneexists.github.io/firefox)
 
+[Choosing a Secure Browser](https://oneexists.github.io/browsers)
+
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
