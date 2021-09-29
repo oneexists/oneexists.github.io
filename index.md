@@ -1,16 +1,6 @@
 ## Welcome to my Computer Security Project
 
-Here you can find posts I've made about computer security:
-
-[Introduction to Security on Linux Systems](https://oneexists.github.io/blog/linux)
-
-[Security Considerations for your Home Internet Connection](https://oneexists.github.io/blog/routers)
-
-[Increasing Password Strength](https://oneexists.github.io/blog/passwords)
-
-[Spyware or Just Advertising](https://oneexists.github.io/blog/spyware)
-
-[Endpoint Security in a Remote World](https://oneexists.github.io/blog/endpoint)
+[Computer Security Blog Posts](https://oneexists.github.io/blog/all)
 
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
