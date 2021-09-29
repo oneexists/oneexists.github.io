@@ -2,15 +2,15 @@
 
 Here you can find posts I've made about computer security:
 
-[Introduction to Security on Linux Systems](https://oneexists.github.io/linux)
+[Introduction to Security on Linux Systems](https://oneexists.github.io/blog/linux)
 
-[Security Considerations for your Home Internet Connection](https://oneexists.github.io/routers)
+[Security Considerations for your Home Internet Connection](https://oneexists.github.io/blog/routers)
 
-[Increasing Password Strength](https://oneexists.github.io/passwords)
+[Increasing Password Strength](https://oneexists.github.io/blog/passwords)
 
-[Spyware or Just Advertising](https://oneexists.github.io/spyware)
+[Spyware or Just Advertising](https://oneexists.github.io/blog/spyware)
 
-[Endpoint Security in a Remote World](https://oneexists.github.io/endpoint)
+[Endpoint Security in a Remote World](https://oneexists.github.io/blog/endpoint)
 
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
