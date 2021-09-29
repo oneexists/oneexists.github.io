@@ -10,3 +10,4 @@
 
 [Endpoint Security in a Remote World](https://oneexists.github.io/blog/endpoint)
 
+[Increasing Firefox's Privacy Experience](https://oneexists.github.io/blog/firefox)
