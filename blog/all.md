@@ -13,3 +13,5 @@
 [Increasing Firefox's Privacy Experience](https://oneexists.github.io/blog/firefox)
 
 [Choosing a Secure Browser](https://oneexists.github.io/blog/browsers)
+
+[With Features Comes Increased Security Need](https://oneexists.github.io/blog/diabetes_care)
