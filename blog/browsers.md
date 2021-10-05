@@ -1,4 +1,4 @@
-## Choosing a Secure Browser
+## Choosing a Private Browser
 
 Firefox is one of many options as far as browsers are concerned. It is a common choice and easily available along with providing many extensions for those who want to personalize their browsing experience further. For many, setting up Firefox with some basic privacy settings would be enough to feel comfortable with the increased online privacy. For those who are interested in exploring other options, there has become a selection of browsers providing a wide variety of security features.
 
