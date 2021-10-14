@@ -15,3 +15,5 @@
 [Choosing a Secure Browser](https://oneexists.github.io/blog/browsers)
 
 [With Features Comes Increased Security Need](https://oneexists.github.io/blog/diabetes_care)
+
+[Addressing Mobile Security Threats](https://oneexists.github.io/blog/mobile_devices)
