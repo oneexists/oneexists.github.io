@@ -17,3 +17,5 @@
 [With Features Comes Increased Security Need](https://oneexists.github.io/blog/diabetes_care)
 
 [Addressing Mobile Security Threats](https://oneexists.github.io/blog/mobile_devices)
+
+[Security as the Cornerstone](https://oneexists.github.io/blog/security_cornerstone)
