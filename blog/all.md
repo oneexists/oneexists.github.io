@@ -19,3 +19,5 @@
 [Addressing Mobile Security Threats](https://oneexists.github.io/blog/mobile_devices)
 
 [Security as the Cornerstone](https://oneexists.github.io/blog/security_cornerstone)
+
+[Inherent Trust in Social Media](https://oneexists.github.io/blog/social_media)
