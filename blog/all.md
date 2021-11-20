@@ -23,3 +23,5 @@
 [Inherent Trust in Social Media](https://oneexists.github.io/blog/social_media)
 
 [STIR/SHAKEN, Spoofing, and SMS](https://oneexists.github.io/blog/robocalls)
+
+[Security Concerns with IoT Devices](https://oneexists.github.io/blog/iot)

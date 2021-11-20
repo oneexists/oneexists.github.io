@@ -1,0 +1,20 @@
+## Security Concerns with IoT Devices
+
+With the increasing availability of Internet of Things (IoT) devices, it is important
+to be aware of how to enable better security practices considering the increased
+risk of using these devices throughout our environment.
+
+The quickest way to start implementing better practices with these devices is to
+take the time to look through the settings options. Taking the time to better understand
+the settings of how the device works while deciding which settings are best for its use
+can minimize security risk. Ensuring these devices are set up to update automatically
+through thier settings provides a quick way of minimizing vulnerabilities when using
+the device.
+
+The next level of providing security in depth would be evaluating the network
+settings. This could be creating two separate networks to isolate devices or
+even something as simple as ensuring the password set on the network connection
+is following recommendations.
+
+A great resource for creating a secure environment for Internet of Things devices
+is put out by CISA in ["Securing the Internet of Things"](https://us-cert.cisa.gov/ncas/tips/ST17-001).
