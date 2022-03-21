@@ -9,6 +9,10 @@ This web application allows the user to create a database of books and track
 reading history. It provides tracking to show a summary of reading statistics
 and provides a list of all books that have been read on the bookshelf.
 
+## [MediaManager Wireframe](https://oneexists.github.io/html/media_manager_wireframes.html)
+
+Wireframe for Java Spring Boot application built during my capstone software development course.
+
 ## Git Posts
 [Feature Branch Workflow](https://oneexists.github.io/git/feature-branch-workflow)
 
