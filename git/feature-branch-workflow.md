@@ -1,6 +1,6 @@
 # How to Create an Optimized Git Workflow
 
-## Step 1
+## Step 1: Create your branch
 Create a branch to start working from. Start work and make
 commits locally. Make commit messages along the way with any
 relevant information. These don't need to be neat and tidy,
@@ -14,7 +14,7 @@ git commit -m "added some functionality to the UI, something is broken in ClassA
 git commit -m "UI is functional, ClassA has been fixed"
 ```
 
-## Step 2
+## Step 2: Clean your branch
 When a good stopping point is reached, it can be useful
 to take a minute to clean up the branch. If there are 
 new changes from the main branch to implement, now is the time. 
@@ -39,18 +39,24 @@ reconstructed into atomic commits, creating a log of commits
 that are easier to follow and groups changes appropriately 
 in an easy to follow sequence.
 
-## Step 3
 If there is more to be done, commits can revert back to
 in-progress style. If there isn't more to add at the base 
 of the branch, these commits can be quickly restructured 
 by working from the most recent "finished" commit when 
 choosing a commit to reset to.
 
-## Step 4
-When the feature is implemented and work is ready to be 
-shared, all that will need to be done is to finish any 
-organizing of commits and creating a pull request to 
-merge the feature branch with its new added functionality. 
+## Step 3: Finalize branch
+Step through changes implemented and take time to review 
+changes. Refactoring is an important step in development 
+and this provides a time to review what is written to 
+ensure it communicates what it intends to do. The easiest 
+way to start approaching refactoring is to adopt a style 
+that provides readability. 
+
+The branch can then be merged through a pull request 
+with an organized set of changes that can be easily 
+reviewed with a descriptive log of changes through 
+the commit history.
 
 ## Additional Options when Building the Commit Log
 Some additional features that can be used is to use the
