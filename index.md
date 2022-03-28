@@ -14,10 +14,7 @@ and provides a list of all books that have been read on the bookshelf.
 Wireframe for Java Spring Boot application built during my capstone software development course.
 
 ## Git Posts
-[Feature Branch Workflow](https://oneexists.github.io/git/feature-branch-workflow)
 
-## Advocacy and Involvement
-[PRIDE Club](https://oneexists.github.io/html/advocacy.html) provided a great opportunity to get involved in the LGBTQ+ 
-community, leadership development, and travel to local, regional, and national conferences.
+[Feature Branch Workflow](https://oneexists.github.io/git/feature-branch-workflow)
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
