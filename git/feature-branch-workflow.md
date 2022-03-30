@@ -1,68 +1,61 @@
 # How to Create an Optimized Git Workflow
 
-## Step 1: Create your branch
-Create a branch to start working from. Start work and make
-commits locally. Make commit messages along the way with any
-relevant information. These don't need to be neat and tidy,
-but it is helpful to leave any relevant information in case
-these commits will be revisited when troubleshooting.
+Git can be difficult to manage initially, but using its structure to build a
+workflow can provide benefits in managing overall insight and structure into
+your development approaches. Learning Git is often deferred until after some
+comfort in at least one language, but it can be a very useful tool for anyone
+looking to ease some of the frustration in learning the tools necessary for
+writing a new project.
 
-```
-git checkout -b feature-branch
-git commit -m "starting progress"
-git commit -m "added some functionality to the UI, something is broken in ClassA"
-git commit -m "UI is functional, ClassA has been fixed"
-```
+Similar to a [Kanban board](https://www.atlassian.com/agile/kanban/boards),
+the stages of your workflow will work in three parts:
+* Writing
+* Staging
+* Revising
 
-## Step 2: Clean your branch
-When a good stopping point is reached, it can be useful
-to take a minute to clean up the branch. If there are 
-new changes from the main branch to implement, now is the time. 
-If there are any notes you want to take from your commits, either 
-create a copy of the branch to reference or take some quick notes. 
-First, the branch will be reset, then the new changes will be merged, 
-finally the changes in the branch will be re-committed. 
 
-```
-git reset < SHA-VALUE >
-git merge < SHA-VALUE >
-```
+### Step 1: Writing
+Set out with an intention of what you plan on writing. This is best done with
+attention to making incremental, progressive implementation.
 
-First, check the log and find the first commit on the branch, 
-reset to this location. All changes will be moved from the 
-commits into the working directory. Then, merge any changes 
-to be added by using the reference to the commit that is to be 
-added. At this point, all changes will be added and all work 
-that has been done on the branch is in the working directory. 
-From here, the changes in the working directory can be 
-reconstructed into atomic commits, creating a log of commits 
-that are easier to follow and groups changes appropriately 
-in an easy to follow sequence.
+With one feature in mind, create a new branch and start writing. The goal is
+to know what you want to write before writing, this can work well with using
+Test Driven Development strategies to ensure that there is direction and
+clarity with what will be written. Another strategy is to create a structure
+of comments for each step that will be written and using it as a guide.
 
-If there is more to be done, commits can revert back to
-in-progress style. If there isn't more to add at the base 
-of the branch, these commits can be quickly restructured 
-by working from the most recent "finished" commit when 
-choosing a commit to reset to.
+Periodically step back and review the changes you've made. For each step in
+writing you make, review the changes and create commits along the way that
+reflect the incremental changes made while building up the new feature.
+Describe the step that was done in the commit messages along the way, these
+commits can be excessively incremental, think of them as a working timeline of
+what was written that can be stepped through one change at a time.
 
-## Step 3: Finalize branch
-Step through changes implemented and take time to review 
-changes. Refactoring is an important step in development 
-and this provides a time to review what is written to 
-ensure it communicates what it intends to do. The easiest 
-way to start approaching refactoring is to adopt a style 
-that provides readability. 
+### Step 2: Staging
 
-The branch can then be merged through a pull request 
-with an organized set of changes that can be easily 
-reviewed with a descriptive log of changes through 
-the commit history.
+Once some of the groundwork is built in the branch, it may make sense to clean
+some of the commits along the way. If a few pieces of a change were written
+into multiple commits, it can be helpful to rewrite some of these commits to
+group some of the smaller changes together. This can also be useful if a few
+changes work together to implement some functionality.
 
-## Additional Options when Building the Commit Log
-Some additional features that can be used is to use the
-"patch" option to stage the changes of part of a file. This
-can help in creating atomic commits when revising a bigger
-set of changes in a single file.
+One option for staging these commits is to reset and rewrite them into
+cohesive, atomic commits that are ready to share with others. This can be a
+good point to look over changes made and consider some refactoring to increase
+readability.
+
+The branch can be reset to a previous commit, which will shift all changes
+into the working directory. These changes can be staged into commits that
+describe the steps taken to build the functionality. Once changes are recorded
+into a new commit structure, either return to adding functionality to the
+feature or proceed with final revising. This can also bring an opportunity to
+merge changes from the main branch of the project if they haven't previously
+been added.
+
+### Step 3: Revising
+Some additional features that can be used is to use the "patch" option to stage
+the changes of part of a file. This can help in creating atomic commits when
+revising a bigger set of changes in a single file.
 
 ```
 git add --patch
@@ -72,27 +65,30 @@ or
 git add -p
 ```
 
-Another feature that can be implemented to assist in stepping
-through these commits while testing the functionality is to
-use the "stash" feature.
+Another feature that can be implemented to assist in stepping through these
+commits while testing the functionality is to use the "stash" feature.
 
 ```
 git stash
 git stash pop
 ```
 
-If there is a quick change that you find you want to make to
-the most recent commit, there is also the option to amend.
-This is helpful when it is available, but is only an option
-for editing the most recent commit. The process is similar to
-any other commit, you would add the changes and then issue a
-commit, but this time with the "amend" option instead of a
-message.
+If there is a quick change that to make to the most recent commit, there is
+also the option to amend. This is helpful when it is available, but is only an
+option for editing the most recent commit. The process is similar to any other
+commit, but with the amend option rather than a commit message.
 
 ```
 git add
 git commit --amend
 ```
+
+When the branch's functionality is written and revised into cohesive commits,
+the branch can be reviewed by others by using a pull request. The time taken
+to revise the workflow to build the commit history this way allows for code
+that communicates what it intends to do and a commit history that provides a
+descriptive log of changes.
+
 
 ## Read Further
 
