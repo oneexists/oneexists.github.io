@@ -9,6 +9,11 @@ This web application allows the user to create a database of books and track
 reading history. It implements a hypermedia RESTful API using JWT web tokens
 and a web interface.
 
+## [Python Utility Project](https://github.com/oneexists/pyutil)
+
+Python CLI interface to record quotes, books, and albums with
+file input/output.
+
 ## [MediaManager Wireframe](https://oneexists.github.io/html/media_manager_wireframes.html)
 
 Wireframe for Java Spring Boot application built during my capstone software development course.
