@@ -3,11 +3,11 @@
 Blog containing posts related to computer security articles on topics including
 browser security, security on Linux systems, and spyware.
 
-## [Trackers Project](https://github.com/oneexists/trackers)
+## [Reading Tracker Project](https://github.com/oneexists/readingTracker)
 
 This web application allows the user to create a database of books and track
-reading history. It provides tracking to show a summary of reading statistics
-and provides a list of all books that have been read on the bookshelf.
+reading history. It implements a hypermedia RESTful API using JWT web tokens
+and a web interface.
 
 ## [MediaManager Wireframe](https://oneexists.github.io/html/media_manager_wireframes.html)
 
