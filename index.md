@@ -18,10 +18,8 @@ file input/output.
 
 Wireframe for Java Spring Boot application built during my capstone software development course.
 
-## Git Posts
+## [Git Posts](https://oneexists.github.io/git/all)
 
-[How to Incorporate Git into an Optimized Workflow](https://oneexists.github.io/git/optimized-workflow)
-
-[Git Tips and Tricks](https://oneexists.github.io/git/git-tricks)
+A collection of guides for using Git version control.
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
