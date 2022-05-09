@@ -15,6 +15,8 @@ Wireframe for Java Spring Boot application built during my capstone software dev
 
 ## Git Posts
 
-[Feature Branch Workflow](https://oneexists.github.io/git/feature-branch-workflow)
+[How to Incorporate Git into an Optimized Workflow](https://oneexists.github.io/git/optimized-workflow)
+
+[Git Tips and Tricks](https://oneexists.github.io/git/git-tricks)
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
