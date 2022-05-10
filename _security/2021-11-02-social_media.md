@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Inherent Trust in Social Media"
+author: skylar_lynner
 ---
-## Inherent Trust in Social Media
+
 Social media has shifted to become more and more present in daily life. While there are
 those out there who have rejected its use, either from the outset or as a decision
 after realizing it isn't the best way to be spending the day, there are still many

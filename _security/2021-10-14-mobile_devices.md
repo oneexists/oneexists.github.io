@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Addressing Mobile Security Threats"
+author: skylar_lynner
 ---
-## Addressing Mobile Security Threats
 
 A quick practice to start increasing security on a mobile device is to become selective in choosing apps to download. This helps protect the device from possible malicious applications, but also limits the number of places your personal data may be collected and stored, which functions to decrease overall risk.
 

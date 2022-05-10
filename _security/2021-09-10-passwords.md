@@ -1,8 +1,8 @@
 ---
-layout: post 
+layout: post
 title: "Increasing Password Strength"
+author: skylar_lynner
 ---
-## Increasing Password Strength
 
 Some of the quickest and easiest password advice is now built into account creation for many websites. These suggestions often include length requirements, including specific character sets, and can even provide feedback on the estimated strength of the password. Many try to pass these suggestions with a password that is still easy to remember, but what these tools are often missing is the added suggestions for how to make passwords that are difficult to guess while still maintianing some meaning to allow for easier recall when logging in.
 

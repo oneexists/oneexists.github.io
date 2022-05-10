@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Security as the Cornerstone"
+author: skylar_lynner
 ---
-## Security as the Cornerstone
 
 Linux's core structure is built with security in mind by giving users lower access rights and creating strong separation between users. A password and user ID are required for each user, and this combination with the user's lower access rights creates regular opportunities for user authentication before privileges are elevated. A quick practice to start when using the Linux terminal is to favor the "sudo" command over "su". This ensures that every time higher access rights are needed, authentication will take place.
 

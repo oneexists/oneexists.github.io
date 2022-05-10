@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Git Tips and Tricks"
+author: skylar_lynner
 ---
-# Git Tips and Tricks (Oops, I messed up my branch!)
 
 ## Can I add files from another branch?
 Sometimes it is easier to move to a new branch to resolve

@@ -1,9 +1,0 @@
-## Git Blog Posts
-
-<ul>
-  {% for post in git.posts %}
-  <li>
-    <a href="{{post.url}}">{{post.title}}</a>
-  </li>
-  {% endfor %}
-</ul>

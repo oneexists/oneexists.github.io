@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "STIR/SHAKEN, Spoofing, and SMS"
+author: skylar_lynner
 ---
-## STIR/SHAKEN, Spoofing, and SMS
 
 Telemarketing is nothing new, but the methods used by scammers have evolved from year
 to year with the technology available. The F.C.C. has taken action in the form of STIR/SHAKEN,

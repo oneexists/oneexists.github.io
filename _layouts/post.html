@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+<h1>{{ page.title }}</h1>
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<br>
+{% if author %}
+  <span>
+    Written by <a href="{{ author.web }}">{{ author.name }}</a>
+  </span>
+{% endif %}
+<br><br>
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
