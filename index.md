@@ -1,7 +1,6 @@
-## [Computer Security Blog](https://oneexists.github.io/blog/all)
+## [Projects](https://oneexists.github.io/projects.html)
 
-Blog containing posts related to computer security articles on topics including
-browser security, security on Linux systems, and spyware.
+Collections of blog posts sorted by topic.
 
 ## [Reading Tracker Project](https://github.com/oneexists/readingTracker)
 
@@ -18,8 +17,5 @@ file input/output.
 
 Wireframe for Java Spring Boot application built during my capstone software development course.
 
-## [Git Posts](https://oneexists.github.io/git/all)
-
-A collection of guides for using Git version control.
 
 I can be found on LinkedIn [here](https://www.linkedin.com/in/skylar-lynner-826079188/).
