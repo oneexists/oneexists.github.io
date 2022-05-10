@@ -1,3 +1,7 @@
+---
+layout: post
+title: "Git Tips and Tricks"
+---
 # Git Tips and Tricks (Oops, I messed up my branch!)
 
 ## Can I add files from another branch?

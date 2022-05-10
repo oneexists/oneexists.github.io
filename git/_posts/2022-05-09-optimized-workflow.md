@@ -1,3 +1,7 @@
+---
+layout: post
+title: "How to Incorporate Git into an Optimized Workflow"
+---
 # How to Incorporate Git into an Optimized Workflow
 
 Git is known for its ability to provide version control, but it can also

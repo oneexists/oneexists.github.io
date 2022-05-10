@@ -1,3 +1,7 @@
+---
+layout: post
+title: "STIR/SHAKEN, Spoofing, and SMS"
+---
 ## STIR/SHAKEN, Spoofing, and SMS
 
 Telemarketing is nothing new, but the methods used by scammers have evolved from year

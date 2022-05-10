@@ -1,3 +1,7 @@
+---
+layout: post
+title: "With Features Comes Increased Security Need"
+---
 ## With Features Comes Increased Security Need
 With the introduction of the Tandem t:slim X2 there was a significant shift in diabetes technology. This device incorporates Bluetooth connection to allow for app synchronization, connection with Dexcom's CGM (Continuous Glucose Monitor), and Control-IQ technology, which assists with blood sugar management by utilizing predictive statistics to provide alerts and adjust insulin levels.
 
