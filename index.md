@@ -5,7 +5,7 @@ bookshelf of books. Keep track of the books your bookshelf and the books
 you've read by adding books and reading logs to record the start and finish
 dates.
 
-## [Shelf Tracker](https://github.com/oneexists/ShelfTracker)
+## [Dictionary](https://github.com/oneexists/Dictionary)
 
 A modular Java application that can create flashcards and vocabulary terms
 that can be searched to aid in studying new terms.
