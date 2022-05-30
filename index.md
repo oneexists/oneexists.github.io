@@ -28,6 +28,11 @@ J2EE web project that performs CRUD (Create, Read, Update, and Delete)
 operations, custom error page, JUnit testing, and utilizes a ConnectionPool
 to manage the athlete roster database.
 
+## [Organization of Programming Languages](https://github.com/oneexists/ProgrammingLanguages)
+
+A selection of projects from Organization of Programming Languages course
+including C, Scheme, and Prolog assignments.
+
 ## [MediaManager Wireframe](https://oneexists.github.io/html/media_manager_wireframes.html)
 
 Wireframe for Java Spring Boot application built during my capstone software
