@@ -1,4 +1,4 @@
-## [Reading Tracker Project](https://github.com/oneexists/readingTracker)
+## [Reading Tracker](https://github.com/oneexists/readingTracker)
 
 Provides a hypermedia RESTful API and web interface to create a digital
 bookshelf of books. Keep track of the books your bookshelf and the books
@@ -10,7 +10,7 @@ dates.
 A modular Java application that can create flashcards and vocabulary terms
 that can be searched to aid in studying new terms.
 
-## [Python Utility Project](https://github.com/oneexists/pyutil)
+## [Python Utilities](https://github.com/oneexists/pyutil)
 
 Python CLI application to record quotes, books and albums using file
 input/output. Lists all albums and can display a random quote.
