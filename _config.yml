@@ -8,6 +8,8 @@ collections:
     output: true
   security:
     output: true
+  agile:
+    output: true
 sidebar:
   - label: Projects
     children:
