@@ -10,6 +10,8 @@ collections:
     output: true
   agile:
     output: true
+  java:
+    output: true
 sidebar:
   - label: Projects
     children:
