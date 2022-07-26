@@ -31,6 +31,8 @@ Collections of blog posts sorted by topic.
   Developed back end, testing and added an updated front end of JSP application
   of the game Reversi.
 
+  ![Game Board](/img/finished-game.png)
+
 ## [Organization of Programming Languages](https://github.com/oneexists/ProgrammingLanguages)
 
 A selection of projects from Organization of Programming Languages course
