@@ -24,9 +24,12 @@ Collections of blog posts sorted by topic.
   operations, custom error page, JUnit testing, and utilizes a ConnectionPool
   to manage the athlete roster database.
 
-- [Reversi](https://github.com/oneexists/reversi)
+- [Reversi / Othello Game](https://github.com/oneexists/reversi)
 
-  Developed back end of JSP-based application using MVC architecture of the game Reversi, including JUnit testing.
+  Technologies: J2EE, Maven, JUnit, JSP, HTML, CSS, Bootstrap
+
+  Developed back end, testing and added an updated front end of JSP application
+  of the game Reversi.
 
 ## [Organization of Programming Languages](https://github.com/oneexists/ProgrammingLanguages)
 
