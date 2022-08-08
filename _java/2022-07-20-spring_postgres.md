@@ -4,7 +4,6 @@ title: "Adding a PostgreSQL Database to a Spring Project"
 author: skylar_lynner
 ---
 
-# Adding a PostgreSQL Database to a Spring Project
 Building a Maven project with a Spring back-end, PostgreSQL
 database, and React front-end.
 
