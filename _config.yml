@@ -1,1 +1,34 @@
-theme: jekyll-theme-minimal
+# Site
+name: Skylar's Blog
+title: Skylar's Homepage
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome! I've written posts about computer security, Git version
+  control, and Java.
+logo: 'assets/images/blog-icon.png'
+favicon: 'assets/images/favicon.ico'
+github_username:  oneexists
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
