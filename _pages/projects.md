@@ -5,135 +5,104 @@ permalink: /projects
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
-
-<h5>J2EE Client/Server Applications Course Projects</h5>
-<div>
-  <span>Technologies:</span>
-  <ul>
-    <li>JSP</li>
-    <li>JSTL/EL</li>
-    <li>Tomcat</li>
-    <li>Maven</li>
-    <li>HTML 5</li>
-    <li>CSS 3</li>
-    <li>Bootstrap</li>
-  </ul>
-  <h6>FOAM: Freedonia Olympic Athlete Management System</h6>
-  <p>
-    Maven JEE Web project performs CRUD operations, uses custom
-    error page, JUnit testing validation of boundary cases, and
-    manages access to database using Connection Pooling.
-  </p>
-  <span>Additional Technologies:</span>
-  <ul>
-    <li>JUnit</li>
-    <li>MySQL</li>
-    <li>Connection Pooling</li>
-  </ul>
-  <h6>Reversi</h6>
-  <p>
-    Play a game of Reversi (Othello) against a friend. JSP-based
-    application using MVC architecture with JUnit testing.
-  </p>
-  <span>Additional Technologies:</span>
-  <ul>
-    <li>Sessions via WebListener</li>
-    <li>Logging via Logger</li>
-  </ul>
-</div>
-
-<h5>Spring Boot</h5>
-<div>
-  <h6>Bookshelf</h6>
-  <p>Web application for tracking personal reading habits.</p>
-  <span>Technologies:</span>
-  <ul>
-    <li>Spring Data JPA (Hibernate)</li>
-    <li>Spring Data REST</li>
-    <li>Spring Security</li>
-    <li>MySQL</li>
-    <li>JUnit Jupiter, Mockito</li>
-    <li>React</li>
-    <li>Bootstrap 5</li>
-  </ul>
-</div>
-
-<h5>Google FooBar</h5>
-<h6>Level 1</h6>
-<p>
-  Write a function called answer(data, n) that takes in a list
-  of less than 100 integers and a number n, and returns that
-  same list but with all of the numbers that occur more than
-  n times removed entirely.
-</p>
-<h6>Level 2: Coded Messages</h6>
-<p>
-  Given a non-empty list of positive integers l and a target
-  positive integer t, write a function answer(l, t) which
-  verifies if there is at least one consecutive sequence of
-  positive integers within the list l (i.e. a contiguous
-  sub-list) that can be summed up to the given target positive
-  integer t (the key) and returns the lexicographically smallest
-  list containing the smallest start and end indexes where this
-  sequence can be found, or returns the array [-1, -1] in the
-  case that there is no such sequence.
-</p>
-<h6>Level 2: Don't get Volunteered</h6>
-<p>
-  Write a function called solution(src, dest) which takes in
-  two parameters: the source square, on which you start, and
-  the destination square, which is where you need to land to
-  solve the puzzle. The function should return an integer
-  representing the smallest number of moves it will take for
-  you to travel from the source square to the destination
-  square using a chess knight's moves (that is, two squares
-  in any direction immediately followed by one square
-  perpendicular to that direction, or vice versa, in an "L"
-  shape).
-</p>
-
-<h5>Organization of Programming Languages Projects</h5>
-<h6>Program 1</h6>
-<p>A program in C that reads 10 integers and prints out the sum of the even integers.</p>
-<h6>Program 2</h6>
-<span>A program in C that can:</span>
+<div class="col">
+<h3>Projects Prior to Dev10 Training</h3>
 <ul>
-  <li>Read integers out of a file with the file name passed as the first parameter of the program</li>
-  <li>Sort the integers</li>
-  <li>Write the sorted integers out to the file passed as the second parameter of the program</li>
-  <li>Handles standard errors (empty files or files that do not exist, already sorted data...)</li>
-  <li>Can accommodate up to 100 integers</li>
-</ul>
-</div>
+  <li>
+    Client/Server Applications Course Projects: JEE Applications<br />
+    Technologies: JSP, JSTL/EL, Tomcat, Maven, HTML 5, CSS 3, Bootstrap
+    <ul>
+      <li><a href="https://github.com/oneexists/FOAM">Athlete CRUD Application</a><br />
+      Additional Technologies:
+        <ul>
+          <li>JUnit</li>
+          <li>MySQL</li>
+          <li>Connection Pooling</li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/oneexists/reversi">Reversi Game</a><br />
+      Additional Technologies:
+        <ul>
+          <li>Sessions via WebListener</li>
+          <li>Logging via Logger</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 
-<div class="col-md-4">
+  <br />
+  <li>
+    <a href="https://github.com/oneexists/ProgrammingLanguages">Organization of Programming Languages</a>
+    <ul>
+      <li>Applications in C, Scheme and Prolog</li>
+      <li>Demonstrate understanding of imperative, functional, object-oriented and logic paradigms</li>
+    </ul>
+  </li>
 
-<div class="sticky-top sticky-top-80">
-<h5>Project Links</h5>
+  <br />
+  <li>
+    <a href="https://github.com/oneexists/FooBar">Google FooBar</a>
+    <ul>
+      <li>Invite only coding challenge</li>
+      <li>Core Java</li>
+      <li>Data Structures and Algorithms</li>
+    </ul>
+  </li>
 
-<h6>J2EE</h6>
-<ul>
-  <li><a target="_blank" href="https://github.com/oneexists/FOAM">FOAM</a></li>
-  <li><a target="_blank" href="https://github.com/oneexists/reversi">Reversi</a></li>
+  <br />
+  <li>
+    <a href="https://github.com/oneexists/BulletJournal">Bullet Journal Project</a><br />
+    Technologies:
+    <ul>
+      <li>Spring Boot</li>
+      <li>Spring Security</li>
+      <li>Spring Data REST</li>
+      <li>Maven</li>
+      <li>PostgreSQL</li>
+      <li>JPA (Hibernate)</li>
+      <li>Jasypt encryption</li>
+    </ul>
+    Testing:
+    <ul>
+      <li>JUnit Jupiter</li>
+      <li>Mockito</li>
+      <li>BDD Mockito</li>
+    </ul>
+    UI/UX:
+    <ul>
+      <li>Thymeleaf templating engine</li>
+      <li>Bootstrap 4</li>
+      <li>HTML 5</li>
+    </ul>
+  </li>
+
+  <br />
+  <li>
+    <a href="https://github.com/oneexists/pyutil">Python Utility Script</a><br />
+    Keeps track of books, music albums and quotes.
+    <br />
+    Features:
+    <ul>
+      <li>Class structure, kwargs constructors, getter setters</li>
+      <li>Can be used with bash scripting to automate note taking and provide random quote messages to other applications</li>
+    </ul>
+  </li>
 </ul>
 
-<h6>Spring Boot/React</h6>
+<h3>Projects Since Dev10 Training</h3>
 <ul>
-  <li><a target="_blank" href="https://github.com/oneexists/Bookshelf">Bookshelf</a></li>
+  <li>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a></li>
+  <li>Spring Boot/React Application: <a href="https://github.com/oneexists/Bookshelf">Bookshelf</a><br />
+  Topics Studied:
+    <ul>
+      <li>Spring Security Exception Handling</li>
+      <li>React Router v6</li>
+      <li>React Hooks</li>
+      <li>React Design Patterns</li>
+      <li>React Accessibility</li>
+    </ul>
+  </li>
+  <li>Currently Reading <a href="https://www.goodreads.com/book/show/3735293-clean-code">Clean Code by Robert C. Martin</a></li>
 </ul>
-
-<h6>Java FooBar Challenge</h6>
-<ul>
-  <li><a target="_blank" href="https://github.com/oneexists/FooBar/tree/master/levelOne">Level 1</a></li>
-  <li><a target="_blank" href="https://github.com/oneexists/FooBar/tree/master/levelTwo/codedMessages">Level 2: Coded Messages</a></li>
-  <li><a target="_blank" href="https://github.com/oneexists/FooBar/tree/master/levelTwo/dontGetVolunteered">Level 2: Don't get Volunteered</a></li>
-</ul>
-<h6>C</h6>
-<ul>
-  <li><a target="_blank" href="https://github.com/oneexists/ProgrammingLanguages/blob/main/Program1.c">Program 1</a></li>
-  <li><a target="_blank" href="https://github.com/oneexists/ProgrammingLanguages/blob/main/Program2.c">Program 2</a></li>
-</ul>
-</div>
 </div>
 </div>
