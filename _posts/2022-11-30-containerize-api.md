@@ -12,6 +12,9 @@ Docker will need to be installed to create the application container.
 It can be downloaded from [here](https://docs.docker.com/get-docker/).
 Creating an account and logging into the application is recommended.
 
+The sample project referenced in this post can be found
+[here](https://github.com/oneexists/containers).
+
 The Spring Boot application requires three environment variables in
 order to make a connection to the MySQL database. Their values are:
   ```
