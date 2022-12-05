@@ -3,7 +3,6 @@ layout: post
 title: "Adding a PostgreSQL Database to a Spring Project"
 author: skylar_lynner
 categories: [ java ]
-featured: true
 ---
 
 Building a Maven project with a Spring back-end, PostgreSQL

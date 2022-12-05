@@ -3,6 +3,7 @@ layout: post
 title: "Create a Container for Spring Boot/MySQL Application"
 author: skylar_lynner
 categories: [ java, docker ]
+featured: true
 ---
 
 ### Project Context
