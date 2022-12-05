@@ -178,6 +178,23 @@ Alternatively, the JWT can be manually added to the Authorization header
 using the `Bearer <your.jwt.here>` format where the JWT is added to the
 request.
 
+### Starting and Stopping the Application
+
+Now, it is easy to start and stop the application.
+
+Open a terminal or command prompt and use the commands to start the
+containers:
+```
+docker start mysqlserver
+docker start containers-api
+```
+
+And then to stop them:
+```
+docker stop containers-api
+docker stop mysqlserver
+```
+
 ### References
 
 - [Introduction to Docker for Java Developers](https://www.linkedin.com/learning/introduction-to-docker-for-java-developers/zero-to-zero-to-hero)
