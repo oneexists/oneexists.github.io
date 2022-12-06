@@ -92,6 +92,13 @@ permalink: /projects
 <h3>Projects Since Dev10 Training</h3>
 <ul>
   <li>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a></li>
+  Technologies:
+  <ul>
+    <li>GitHub Pages</li>
+    <li>Markdown</li>
+    <li>Jekyll templating engine</li>
+  </ul>
+  <li><a href="https://oneexists.github.io/containerize-api">Docker: Containerize Spring Boot/MySQL application</a> guide with accompanying <a href="https://github.com/oneexists/containers">sample application</a></li>
   <li>Spring Boot/React Application: <a href="https://github.com/oneexists/Bookshelf">Bookshelf</a><br />
   Topics Studied:
     <ul>
