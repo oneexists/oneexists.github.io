@@ -91,25 +91,41 @@ permalink: /projects
 
 <h3>Projects Since Dev10 Training</h3>
 <ul>
-  <li>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a></li>
-  Technologies:
-  <ul>
-    <li>GitHub Pages</li>
-    <li>Markdown</li>
-    <li>Jekyll templating engine</li>
-  </ul>
-  <li><a href="https://oneexists.github.io/containerize-api">Docker: Containerize Spring Boot/MySQL application</a> guide with accompanying <a href="https://github.com/oneexists/containers">sample application</a></li>
-  <li>Spring Boot/React Application: <a href="https://github.com/oneexists/Bookshelf">Bookshelf</a><br />
-  Topics Studied:
+  <li>Projects
     <ul>
-      <li>Spring Security Exception Handling</li>
-      <li>React Router v6</li>
-      <li>React Hooks</li>
-      <li>React Design Patterns</li>
-      <li>React Accessibility</li>
+        <li>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a><br />
+          Technologies:
+          <ul>
+            <li>GitHub Pages</li>
+            <li>Markdown</li>
+            <li>Jekyll templating engine</li>
+          </ul>
+        </li>
+        <li>Spring Boot/React Application: <a href="https://github.com/oneexists/Bookshelf">Bookshelf</a><br /></li>
+          Topics Studied:
+          <ul>
+            <li>Spring Security Exception Handling</li>
+            <li>React Router v6</li>
+            <li>React Hooks</li>
+            <li>React Design Patterns</li>
+            <li>React Accessibility</li>
+            <li>Docker</li>
+          </ul>
     </ul>
   </li>
-  <li>Currently Reading <a href="https://www.goodreads.com/book/show/3735293-clean-code">Clean Code by Robert C. Martin</a></li>
+
+  <li>Blog Posts
+    <ul>
+      <li><a href="https://oneexists.github.io/containerize-api">Docker: Containerize Spring Boot/MySQL application</a> guide with accompanying <a href="https://github.com/oneexists/containers">sample application</a></li>
+    </ul>
+  </li>
+
+  <li>Books:
+    <ul>
+      <li><a href="https://www.goodreads.com/book/show/3735293-clean-code">Clean Code by Robert C. Martin</a></li>
+      <li>Currently Reading: <a href="https://www.goodreads.com/book/show/34927404-effective-java">Effective Java by Joshua Bloch</a></li>
+    </ul>
+  </li>
 </ul>
 </div>
 </div>
