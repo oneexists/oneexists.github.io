@@ -2,7 +2,7 @@
 layout: post
 title: "Integrating Agile Development and DevOps Practices"
 author: skylar_lynner
-categories: [ agile ]
+categories: [ agile, devops ]
 featured: true
 ---
 
