@@ -142,7 +142,12 @@ permalink: /projects
 
   <li>Blog Posts
     <ul>
-      <li><a href="https://oneexists.github.io/containerize-api">Docker: Containerize Spring Boot/MySQL application</a> guide with accompanying <a href="https://github.com/oneexists/containers">sample application</a></li>
+      <li>
+        <a href="https://oneexists.github.io/containerize-api">Docker: Containerize Spring Boot/MySQL application</a> guide with accompanying <a href="https://github.com/oneexists/containers">sample application</a>
+      </li>
+      <li>
+        <a href="https://oneexists.github.io/devops-values">Introduction to DevOps Core Values</a>
+      </li>
     </ul>
   </li>
 
