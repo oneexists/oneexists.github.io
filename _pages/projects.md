@@ -12,16 +12,22 @@ permalink: /projects
     Client/Server Applications Course Projects: JEE Applications<br />
     Technologies: JSP, JSTL/EL, Tomcat, Maven, HTML 5, CSS 3, Bootstrap
     <ul>
-      <li><a href="https://github.com/oneexists/FOAM">Athlete CRUD Application</a><br />
-      Additional Technologies:
+      <li><p>Athlete CRUD Application</p>
+        <div>
+          <a href="https://github.com/oneexists/FOAM"><img src="https://gh-card.dev/repos/oneexists/FOAM.svg"></a>
+        </div>
+        Additional Technologies:
         <ul>
           <li>JUnit</li>
           <li>MySQL</li>
           <li>Connection Pooling</li>
         </ul>
       </li>
-      <li><a href="https://github.com/oneexists/reversi">Reversi Game</a><br />
-      Additional Technologies:
+      <li><p>Reversi Game</p>
+        <div>
+          <a href="https://github.com/oneexists/reversi"><img src="https://gh-card.dev/repos/oneexists/reversi.svg"></a>
+        </div>
+        Additional Technologies:
         <ul>
           <li>Sessions via WebListener</li>
           <li>Logging via Logger</li>
@@ -32,26 +38,35 @@ permalink: /projects
 
   <br />
   <li>
-    <a href="https://github.com/oneexists/ProgrammingLanguages">Organization of Programming Languages</a>
+    <p>Organization of Programming Languages</p>
     <ul>
       <li>Applications in C, Scheme and Prolog</li>
       <li>Demonstrate understanding of imperative, functional, object-oriented and logic paradigms</li>
     </ul>
+    <div>
+      <a href="https://github.com/oneexists/ProgrammingLanguages"><img src="https://gh-card.dev/repos/oneexists/ProgrammingLanguages.svg"></a>
+    </div>
   </li>
 
   <br />
   <li>
-    <a href="https://github.com/oneexists/FooBar">Google FooBar</a>
+    <p>Google FooBar</p>
     <ul>
       <li>Invite only coding challenge</li>
       <li>Core Java</li>
       <li>Data Structures and Algorithms</li>
     </ul>
+    <div>
+      <a href="https://github.com/oneexists/FooBar"><img src="https://gh-card.dev/repos/oneexists/FooBar.svg"></a>
+    </div>
   </li>
 
   <br />
   <li>
-    <a href="https://github.com/oneexists/BulletJournal">Bullet Journal Project</a><br />
+    <p>Bullet Journal Project</p>
+    <div>
+      <a href="https://github.com/oneexists/BulletJournal"><img src="https://gh-card.dev/repos/oneexists/BulletJournal.svg"></a>
+    </div>
     Technologies:
     <ul>
       <li>Spring Boot</li>
@@ -78,9 +93,11 @@ permalink: /projects
 
   <br />
   <li>
-    <a href="https://github.com/oneexists/pyutil">Python Utility Script</a><br />
-    Keeps track of books, music albums and quotes.
-    <br />
+    <p>Python Utility Script</p>
+    <p>Keeps track of books, music albums and quotes.</p>
+    <div>
+      <a href="https://github.com/oneexists/pyutil"><img src="https://gh-card.dev/repos/oneexists/pyutil.svg"></a>
+    </div>
     Features:
     <ul>
       <li>Class structure, kwargs constructors, getter setters</li>
@@ -93,7 +110,11 @@ permalink: /projects
 <ul>
   <li>Projects
     <ul>
-        <li>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a><br />
+        <li>
+          <p>Refresh theme and update <a href="https://github.com/oneexists/oneexists.github.io">this website</a></p>
+          <div>
+            <a href="https://github.com/oneexists/oneexists.github.io"><img src="https://gh-card.dev/repos/oneexists/oneexists.github.io.svg"></a>
+          </div>
           Technologies:
           <ul>
             <li>GitHub Pages</li>
@@ -101,7 +122,11 @@ permalink: /projects
             <li>Jekyll templating engine</li>
           </ul>
         </li>
-        <li>Spring Boot/React Application: <a href="https://github.com/oneexists/Bookshelf">Bookshelf</a><br /></li>
+        <li>
+          <p>Spring Boot/React Application</p>
+          <div>
+            <a href="https://github.com/oneexists/Bookshelf"><img src="https://gh-card.dev/repos/oneexists/Bookshelf.svg"></a>
+          </div>
           Topics Studied:
           <ul>
             <li>Spring Security Exception Handling</li>
@@ -111,6 +136,7 @@ permalink: /projects
             <li>React Accessibility</li>
             <li>Docker</li>
           </ul>
+        </li>
     </ul>
   </li>
 
