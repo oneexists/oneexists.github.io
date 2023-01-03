@@ -6,7 +6,6 @@ permalink: /skills
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-<h3>Skills</h3>
 
 <h5>Frameworks/Libraries</h5>
 <ul>
@@ -38,7 +37,7 @@ permalink: /skills
 </div>
 
 <div class="col-md-4">
-<h4>Languages</h4>
+<h5>Languages</h5>
 <p>Primary:</p>
 <ul>
     <li>Java SE/EE</li>
