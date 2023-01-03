@@ -25,6 +25,14 @@ permalink: /about
   for high school students to earn college credit and receive CompTIA
   IT Fundamentals certification.
 </p>
+  
+<p>
+  I have completed training through Dev10 as a certified Java 
+  Full Stack Developer where I demonstrated my web development skills 
+  by completing weekly mastery assessments, demonstrating object-oriented
+  programming techniques, and participating in a two week group capstone 
+  project using Spring Boot and React.
+</p>
 
 </div>
 
