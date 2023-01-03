@@ -27,11 +27,12 @@ permalink: /about
 </p>
   
 <p>
-  I have completed training through Dev10 as a certified Java 
-  Full Stack Developer where I demonstrated my web development skills 
-  by completing weekly mastery assessments, demonstrating object-oriented
-  programming techniques, and participating in a two week group capstone 
-  project using Spring Boot and React.
+  I have completed training through Dev10 as a certified 
+  <a href="https://www.credly.com/badges/0f43eec8-98fe-4962-bac3-0bf58f6830c6">Java Full Stack Developer</a> 
+  where I demonstrated my web development skills by completing weekly
+  mastery assessments, demonstrating object-oriented programming 
+  techniques, and participating in a two week group capstone project 
+  using Spring Boot and React.
 </p>
 
 </div>
