@@ -31,12 +31,14 @@ permalink: /about
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-  <a href="https://www.linkedin.com/in/skylar-lynner-826079188/">
-    <img align="left" alt="Skylar's LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" />
-  </a>
-  
   <div class="github-card" data-github="oneexists" data-width="400" data-height="318" data-theme="medium"></div>
   <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  
+    <div>
+    <a href="https://www.linkedin.com/in/skylar-lynner-826079188/">
+      <img align="left" alt="Skylar's LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" />
+    </a>
+  </div>
 </div>
 </div>
 </div>
