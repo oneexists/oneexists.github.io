@@ -123,7 +123,7 @@ permalink: /projects
           </ul>
         </li>
         <li>
-          <p>Spring Boot/React Application</p>
+          <p><a href="https://oneexists.github.io/bookshelf-project">Bookshelf Project Page</a></p>
           <div>
             <a href="https://github.com/oneexists/Bookshelf"><img src="https://gh-card.dev/repos/oneexists/Bookshelf.svg"></a>
           </div>
