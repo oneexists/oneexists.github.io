@@ -5,14 +5,20 @@ author: skylar_lynner
 categories: [ projects, java, react ]
 ---
 
+As someone who enjoys reading books in my free time, but doesn't always have 
+the best memory for what I've read, I have become someone who tracks a lot of
+my reading. I have tried keeping physical notes in notebooks and on various 
+websites, so I'm in the process of creating a web application that will give 
+me the reading statistics I'm interested in and provide a place to keep my 
+notes together.
+
+Some motivations for creating this project include 
+[Ryan Holiday's Note Taking System](https://ryanholiday.medium.com/this-simple-note-taking-method-will-help-you-read-more-and-remember-what-youve-read-2cdf8010801)
+and [Taking Book Notes (How to Start) by Tiago Forte](https://www.youtube.com/watch?v=fES9ZrLXY9s).
+
 ## Source Code
 
 [![oneexists/Bookshelf - GitHub](https://gh-card.dev/repos/oneexists/Bookshelf.svg)](https://github.com/oneexists/Bookshelf)
-
-## Description
-
-Keep all of your reading notes together in one place. Add books to your
-bookshelf and track your reading habits.
 
 ## Languages, Frameworks, Technologies
 
