@@ -18,6 +18,7 @@ bookshelf and track your reading habits.
 
 - Java Spring
     - Spring Data JPA (Hibernate)
+    - JJWT
     - Spring Data REST
     - Spring Security
 - MySQL database
@@ -35,20 +36,23 @@ bookshelf and track your reading habits.
 ### Functional
 
 - RESTful API with JWT web token authentication
-- login/logout and account registration
-    - username length of 3-100 characters
-    - password validation: 8 character length with at least one letter, one digit
+- Login/logout and account registration
+    - Username length of 3-100 characters
+    - Password validation: 8 character length with at least one letter, one digit
       and one special character
-- add, edit and delete books
-- add and edit a book's reading activity
+- Add, edit and delete books
+- Add, edit and delete a book's reading activity
 
 ### Non-Functional
 
-- user interface
+#### User Interface
+
     - React front-end interface
     - Bootstrap/CSS styling
     - utilize a card layout for books on bookshelf
-- user experience
+
+#### User Experience
+
     - follow [WAI-ARIA specification](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
       to increase accessibility
       - allows for screen reader and keyboard navigation
