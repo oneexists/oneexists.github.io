@@ -10,29 +10,30 @@ permalink: /about
 <p>
   I graduated from Metropolitan State University where I majored in
   Computer Information Technology. While in school, I was recognized
-  for my leadership and involved in many activities, including holding
-  executive board positions for three clubs, serving as Director of IT
-  in Student Senate, and served on multiple committees.
+  for my leadership and was involved in many activities, including 
+  holding executive board positions for three clubs, serving as Director 
+  of IT in Student Senate, and serving on multiple committees.
 </p>
 
 <p>
   My studies have primarily focused on Java web development, but I also
   found an interest in studying Agile development methodologies,
-  computer security, operating systems, and database management. After
+  computer security, operating systems, and various languages. After
   graduating, I held a position as a teaching assistant for the JROTC
   Cyber Academy course hosted by my university, which is a six week
   course lead by industry professionals that provides the opportunity
   for high school students to earn college credit and receive CompTIA
-  IT Fundamentals certification.
+  IT Fundamentals certification. I enjoyed the opportunity to learn 
+  more about computer security topics and work with passionate students.
 </p>
   
 <p>
   I have completed training through Dev10 as a certified 
   <a href="https://www.credly.com/badges/0f43eec8-98fe-4962-bac3-0bf58f6830c6">Java Full Stack Developer</a> 
-  where I demonstrated my web development skills by completing weekly
+  where I expanded my web development skills by completing weekly
   mastery assessments, demonstrating object-oriented programming 
   techniques, and participating in a two week group capstone project 
-  using Spring Boot and React.
+  using MySQL, Spring Boot and React.
 </p>
 
 </div>
