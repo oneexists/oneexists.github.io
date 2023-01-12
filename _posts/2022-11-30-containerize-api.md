@@ -18,57 +18,32 @@ The sample project referenced in this post can be found
 The Spring Boot application requires three environment variables in
 order to make a connection to the MySQL database. Their values are:
   ```
-  DB_URL=jdbc:mysql://localhost:3306/containers
-  DB_USERNAME=root
-  DB_PASSWORD=password
+  CONTAINERS_DB_URL=jdbc:mysql://containers-db:3306/containers
+  CONTAINERS_DB_USERNAME=root
+  CONTAINERS_DB_PASSWORD=password
   ```
 
 In three steps, we will create:
 - A Docker image of the Spring Boot application using Maven
   (named `containers` with the tag `spring-boot`)
-- Two Docker volumes to manage MySQL (`mysql_data` and `mysql_config`),
+- Two Docker volumes to manage MySQL (`containers_data` and `containers_config`),
   which will connect the application's data to local storage
 - A Docker network to connect MySQL to the Spring Boot application
-  (`mysqlnet`)
+  (`containers_net`)
 - Two Docker containers to run the MySQL and Spring Boot application
-  instances (`mysqlserver` and `containers-api`)
+  instances (`containers-db` and `containers-api`)
 
 ### Step 1: Create Spring Boot Image
 
-The pom.xml file includes the image configuration in the `plugins`
-section. The Docker username can be updated to the username used to
-sign into the Docker application:
-  ```
-  <plugin>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-maven-plugin</artifactId>
-    <configuration>
-      <image>
-        <name>containers:spring-boot</name>
-      </image>
-    </configuration>
-  </plugin>
-  <plugin>
-    <groupId>com.google.cloud.tools</groupId>
-    <artifactId>jib-maven-plugin</artifactId>
-    <version>3.2.0</version>
-    <configuration>
-      <to>
-        <image>docker.io/docker-username/containers:jib</image>
-      </to>
-    </configuration>
-  </plugin>
-  ```
-This configuration provides Maven with the container's name and tag,
-along with the configuration for
-[Google Jib](https://cloud.google.com/blog/products/application-development/introducing-jib-build-java-docker-images-better)
+The `pom.xml` file includes the image configuration in the `plugins`
+section. It uses [Google Jib](https://cloud.google.com/blog/products/application-development/introducing-jib-build-java-docker-images-better)
 to assist with layering the application to minimize its size.
 
-Then use Maven in the terminal to package the application and build the
+Use Maven in the terminal to package the application and build the
 image:
-  ```
-  ./mvnw package -DskipTests spring-boot:build-image
-  ```
+```
+./mvnw package -DskipTests spring-boot:build-image
+```
 
 Execute the command `docker images` to confirm the image exists. The
 images for `paketobuildpacks/run` and `pakettobuildpacks/builder`
@@ -77,70 +52,88 @@ will appear along with the newly created `containers` image.
 #### Breakdown
 
 - `containers:spring-boot` represents the image's name and tag
-- `docker.io/docker-username/containers:jib` in the `pom.xml` will need
-  to be updated to include a Docker account username and includes
-  `containers` as the name of the image being created
 - the application is packaged using configuration in the `pom.xml` and
   Maven in the terminal to create a Docker image of the application
 
-### Step 2: MySQL Volumes, Network, and Container
+### Step 2: Creating the MySQL Container
 
-Create Docker volumes:
+Docker volumes will be used to store the data and configuration of 
+the database using the commands:
 ```
-docker volume create mysql_data
-docker volume create mysql_config
-```
-
-Then create Docker network:
-```
-docker network create mysqlnet
+docker volume create containers_data
+docker volume create containers_config
 ```
 
-Next, create a container from the MySQL image:
+The containers will communicate using a Docker network that can be
+created using:
 ```
-docker run -it -d -v mysql_data:/var/lib/mysql -v mysql_config:/etc/mysql/conf.d --network mysqlnet --name mysqlserver -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 mysql
+docker network create containers_net
 ```
 
-This is a good time to initialize the database. The username and password
-can be used to sign into MySQL, then the following query can be executed:
+Next, create a container from the MySQL image (replace `password` with the 
+password you would like to use for the database):
+```
+docker run -it -d -v mysql_data:/var/lib/mysql -v containers_config:/etc/mysql/conf.d --network containers_net --name containers-db -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 mysql
+```
+
+This is a good time to initialize the database. First access the 
+database inside the container:
+```bash
+docker exec -ti containers-db bash
+```
+Then sign into MySQL and enter the database password when prompted:
+```
+mysql -u root -p
+```
+The database can be created using the following SQL statement:
 ```
 create database containers;
 ```
 
-If running the application tests is of interest, there is a schema
-located in `sql/schema.sql` that can be run to set up the testing
-database. The environment variables to run the tests are almost
-identical to the application except the database used it
-`containers_test`.
+There is a schema included in `sql/schema.sql` that creates a 
+testing database. To use this, update the database name at the 
+end of the environment variable to `containers_test` and initialize
+the schema inside the Docker container using the following command:
+```bash
+docker exec -i containers-db mysql -u root -p"$CONTAINERS_DB_PASSWORD" < sql/schema.sql
+```
 
 #### Breakdown
 
-- MySQL data is managed using two Docker volumes (`mysql_data` and
-  `mysql_config`)
+- MySQL data is managed using two Docker volumes (`containers_data` and
+  `containers_config`)
 - The application containers will communicate using a Docker network
-  (`mysqlnet`)
-- The database is managed in the container `mysqlserver` using the
+  (`containers_net`)
+- The database is managed in the container `containers-db` using the
   `mysql` image (provided from Docker Hub), it uses the volumes
-  for its data, the `mysqlnet` network for communication on port `3306`,
-  and uses the the `root` login with the password `password`
+  for its data, the `containers_net` network for communication on port `3306`,
+  and uses the the `root` login
+- After the container is created, the database is initialized using 
+  `docker exec` to access MySQL within the `containers-db` instance
+  and the test database can be initialized within the container as well
 
-### Step 3: Create Docker Container
+### Step 3: Create the API Container
 
-Finally, a container is created for the Spring Boot application:
-  ```
-  docker run -d --name containers-api --network mysqlnet -e DB_URL=jdbc:mysql://mysqlserver:3306/containers -e DB_USERNAME=root -e DB_PASSWORD=password -p 8080:8080 containers:spring-boot
-  ```
+The second container can be created for the Spring Boot application
+(again, replacing `password` to match the password used to create
+the database):
+```
+docker run -d --name containers-api --network containers_net -e CONTAINERS_DB_URL=jdbc:mysql://containers-db:3306/containers -e CONTAINERS_DB_USERNAME=root -e CONTAINERS_DB_PASSWORD=password -p 8080:8080 containers:spring-boot
+```
 
 With both of the containers running, the application will be available
-at `http://localhost:8080/api`.
+at [this endpoint](http://localhost:8080/api) and return a 403 Forbidden 
+response.
 
 #### Breakdown
 
-- The application container is created with the name `containers-api`
-  using the `mysqlnet` network, the environment variables needed to
-  make a connection with the database over the network, exposes port
-  `8080`, and uses the `containers:spring-boot` container from the
-  previous step
+- The container is created from the `containers:spring-boot` image 
+  with the name `containers-api`
+- It uses the `containers_net` network to communicate with the 
+  database with the environment variables provided and exposes port 
+  `8080`
+- The application will provide a `403 Forbidden` response at its
+  endpoint if accessed without a JWT token [here](http://localhost:8080/api)
 
 ### Sending an HTTP Request
 
@@ -180,19 +173,20 @@ request.
 
 ### Starting and Stopping the Application
 
-Now, it is easy to start and stop the application.
+Now that the containers have been created, it is easy to start and stop 
+the application.
 
 Open a terminal or command prompt and use the commands to start the
 containers:
 ```
-docker start mysqlserver
+docker start containers-db
 docker start containers-api
 ```
 
 And then to stop them:
 ```
 docker stop containers-api
-docker stop mysqlserver
+docker stop containers-db
 ```
 
 ### References
