@@ -140,6 +140,7 @@ response.
 An account can be created by sending a request to the application.
 The request can be executed using REST Client in VS Code by using the
 file `requests.http` containing:
+{% raw %}
 ```
 @url = http://localhost:8080
 
@@ -151,12 +152,14 @@ Content-Type: application/json
   "password": "P@ssw0rd!"
 }
 ```
+{% endraw %}
 
 The same request body can be sent to `http://localhost:8080/authenticate`
 to receive a JWT token. Use this token by adding it to the `@jwt`
 reference at the top of the `requests.http` file. This will use the  
 token to view the users endpoint at `http://localhost:8080/api/appUsers`
 with the request:
+{% raw %}
 ```
 @jwt = <your.jwt.here>
 
@@ -166,6 +169,7 @@ GET {{url}}/authenticate HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer {{jwt}}
 ```
+{% endraw %}
 
 Alternatively, the JWT can be manually added to the Authorization header
 using the `Bearer <your.jwt.here>` format where the JWT is added to the
