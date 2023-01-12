@@ -121,9 +121,8 @@ the database):
 docker run -d --name containers-api --network containers_net -e CONTAINERS_DB_URL=jdbc:mysql://containers-db:3306/containers -e CONTAINERS_DB_USERNAME=root -e CONTAINERS_DB_PASSWORD=password -p 8080:8080 containers:spring-boot
 ```
 
-With both of the containers running, the application will be available
-at [this endpoint](http://localhost:8080/api) and return a 403 Forbidden 
-response.
+With both of the containers running, the application homepage will be 
+available at [this endpoint](http://localhost:8080/).
 
 #### Breakdown
 
@@ -132,8 +131,8 @@ response.
 - It uses the `containers_net` network to communicate with the 
   database with the environment variables provided and exposes port 
   `8080`
-- The application will provide a `403 Forbidden` response at its
-  endpoint if accessed without a JWT token [here](http://localhost:8080/api)
+- The application will provide a homepage with the current date at 
+  [this endpoint](http://localhost:8080/)
 
 ### Sending an HTTP Request
 
