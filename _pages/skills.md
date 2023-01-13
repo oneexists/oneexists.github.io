@@ -18,6 +18,7 @@ permalink: /skills
 <ul>
     <li>MySQL</li>
     <li>PostgreSQL</li>
+    <li>H2</li>
 </ul>
 
 <h5>Tools</h5>
