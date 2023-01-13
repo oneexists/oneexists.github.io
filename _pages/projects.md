@@ -135,6 +135,19 @@ permalink: /projects
             <li>React Design Patterns</li>
             <li>React Accessibility</li>
             <li>Docker</li>
+            <li>Bash</li>
+          </ul>
+        </li>
+        <li>
+          <p>Kotlin Theater Project</p>
+          <div>
+            <a href="https://github.com/oneexists/kotlin-theater"><img src="https://gh-card.dev/repos/oneexists/kotlin-theater.svg"></a>
+          </div>
+          <p>Expanded on a project from the <a href="https://www.linkedin.com/learning/build-spring-boot-apps-with-the-kotlin-programming-language">Build Spring Boot Apps with the Kotlin Programming Language</a> course</p>
+          <ul>
+            <li>Added Bootstrap and improved styling</li>
+            <li>Added service layer testing</li>
+            <li>Improved architecture design and initialization of theater seating data</li>
           </ul>
         </li>
     </ul>
@@ -147,6 +160,9 @@ permalink: /projects
       </li>
       <li>
         <a href="https://oneexists.github.io/devops-values">Introduction to DevOps Core Values</a>
+      </li>
+      <li>
+        <a href="https://oneexists.github.io/creating-a-readme">Creating a Readme</a>
       </li>
     </ul>
   </li>
