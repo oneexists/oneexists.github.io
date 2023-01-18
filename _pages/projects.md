@@ -5,7 +5,7 @@ permalink: /projects
 ---
 
 <div class="row justify-content-between">
-<div class="col">
+<div class="col-md-6">
 <h3>Projects Prior to Dev10 Training</h3>
 <ul>
   <li>
@@ -105,6 +105,9 @@ permalink: /projects
     </ul>
   </li>
 </ul>
+
+</div>
+<div class="col-md-6">
 
 <h3>Projects Since Dev10 Training</h3>
 <ul>
