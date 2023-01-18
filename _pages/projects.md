@@ -9,7 +9,7 @@ permalink: /projects
 <h3>Projects Prior to Dev10 Training</h3>
 
 <h4>Client/Server Applications Course Projects: JEE Applications</h4>
-<h5>Technologies:</h5>
+<p><b>Technologies:</b></p>
 <ul>
   <li>JSP</li>
   <li>JSTL/EL</li>
@@ -24,14 +24,14 @@ permalink: /projects
     <a href="https://github.com/oneexists/FOAM"><img src="https://gh-card.dev/repos/oneexists/FOAM.svg"></a>
   </div>
 </div>
-<h5>Features:</h5>
+<p><b>Features:</b></p>
 <ul>
   <li>Add athletes to roster</li>
   <li>View athlete roster</li>
   <li>Edit athletes</li>
   <li>Remove athletes from roster</li>
 </ul>
-<h5>Additional Technologies:</h5>
+<p><b>Additional Technologies:</b></p>
 <ul>
   <li>JUnit</li>
   <li>MySQL</li>
@@ -43,7 +43,7 @@ permalink: /projects
     <a href="https://github.com/oneexists/reversi"><img src="https://gh-card.dev/repos/oneexists/reversi.svg"></a>
   </div>
 </div>
-<h5>Additional Technologies:</h5>
+<p><b>Additional Technologies:</b></p>
 <ul>
   <li>Sessions via WebListener</li>
   <li>Logging via Logger</li>
@@ -76,7 +76,7 @@ permalink: /projects
     <a href="https://github.com/oneexists/BulletJournal"><img src="https://gh-card.dev/repos/oneexists/BulletJournal.svg"></a>
   </div>
 </div>
-<h5>Technologies:</h5>
+<p><b>Technologies:</b></p>
 <ul>
   <li>Spring Boot</li>
   <li>Spring Security</li>
@@ -86,13 +86,13 @@ permalink: /projects
   <li>JPA (Hibernate)</li>
   <li>Jasypt encryption</li>
 </ul>
-<h5>Testing:</h5>
+<p><b>Testing:</b></p>
 <ul>
   <li>JUnit Jupiter</li>
   <li>Mockito</li>
   <li>BDD Mockito</li>
 </ul>
-<h5>UI/UX:</h5>
+<p><b>UI/UX:</b></p>
 <ul>
   <li>Thymeleaf templating engine</li>
   <li>Bootstrap 4</li>
@@ -104,7 +104,7 @@ permalink: /projects
     <a href="https://github.com/oneexists/pyutil"><img src="https://gh-card.dev/repos/oneexists/pyutil.svg"></a>
   </div>
 </div>
-<h5>Features:</h5>
+<p><b>Features:</b></p>
 <ul>
   <li>Keeps track of books, music albums and quotes.</li>
   <li>Class structure, kwargs constructors, getter setters</li>
@@ -122,11 +122,11 @@ permalink: /projects
     <a href="https://github.com/oneexists/oneexists.github.io"><img src="https://gh-card.dev/repos/oneexists/oneexists.github.io.svg"></a>
   </div>
 </div>
-<h5>
+<p><b>
   Refresh theme and update 
   <a href="https://github.com/oneexists/oneexists.github.io">this website</a>
-</h5>
-<h5>Technologies:</h5>
+</b></p>
+<p><b>Technologies:</b></p>
 <ul>
   <li>GitHub Pages</li>
   <li>Markdown</li>
@@ -138,10 +138,10 @@ permalink: /projects
     <a href="https://github.com/oneexists/Bookshelf"><img src="https://gh-card.dev/repos/oneexists/Bookshelf.svg"></a>
   </div>
 </div>
-<h5>
+<p><b>
   <a href="https://oneexists.github.io/bookshelf-project">Bookshelf Project Page</a>
-</h5>
-<h5>Topics Studied:</h5>
+</b></p>
+<p><b>Topics Studied:</b></p>
 <ul>
   <li>Spring Security Exception Handling</li>
   <li>React Router v6</li>
