@@ -53,19 +53,19 @@ and [Taking Book Notes (How to Start) by Tiago Forte](https://www.youtube.com/wa
 
 #### User Interface
 
-    - React front-end interface
-    - Bootstrap/CSS styling
-    - utilize a card layout for books on bookshelf
+- React front-end interface
+- Bootstrap/CSS styling
+- utilize a card layout for books on bookshelf
 
 #### User Experience
 
-    - follow [WAI-ARIA specification](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
-      to increase accessibility
-      - allows for screen reader and keyboard navigation
-      - assertive error display on forms to notify screen readers
-      - provides descriptions of form field requirements
-    - standardize custom components such as form input/submission and button
-      formatting
+- follow [WAI-ARIA specification](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+    to increase accessibility
+    - allows for screen reader and keyboard navigation
+    - assertive error display on forms to notify screen readers
+    - provides descriptions of form field requirements
+- standardize custom components such as form input/submission and button
+    formatting
 
 ## Screenshots
 
