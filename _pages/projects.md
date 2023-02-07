@@ -5,11 +5,8 @@ permalink: /projects
 ---
 
 <div class="row justify-content-between">
-<div>
-<h3>Projects</h3>
-
-<section>
-  <div>
+<div class="col-md-6">
+  <section>
     <div>
       <a href="https://github.com/oneexists/oneexists.github.io"><img src="https://gh-card.dev/repos/oneexists/oneexists.github.io.svg"></a>
     </div>
@@ -21,9 +18,11 @@ permalink: /projects
         <li>Jekyll templating engine</li>
       </ul>
     </figure>
-  </div>
+  </section>
+</div>
 
-  <div>
+<div class="col-md-6">
+  <section>
     <div>
       <a href="https://github.com/oneexists/Bookshelf"><img src="https://gh-card.dev/repos/oneexists/Bookshelf.svg"></a>
     </div>
@@ -42,8 +41,6 @@ permalink: /projects
         <li>Bash</li>
       </ul>
     </figure>
-  </div>
-</section>
-
+  </section>
 </div>
 </div>
