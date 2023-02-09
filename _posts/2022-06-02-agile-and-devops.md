@@ -3,7 +3,6 @@ layout: post
 title: "Integrating Agile Development and DevOps Practices"
 author: skylar_lynner
 categories: [ agile, devops ]
-featured: true
 ---
 
 # First, let's talk about DevOps

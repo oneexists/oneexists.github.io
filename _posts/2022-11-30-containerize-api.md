@@ -3,7 +3,6 @@ layout: post
 title: "Create a Container for Spring Boot/MySQL Application"
 author: skylar_lynner
 categories: [ java, docker ]
-featured: true
 ---
 
 ### Project Context
@@ -57,7 +56,7 @@ will appear along with the newly created `containers` image.
 
 ### Step 2: Creating the MySQL Container
 
-Docker volumes will be used to store the data and configuration of 
+Docker volumes will be used to store the data and configuration of
 the database using the commands:
 ```
 docker volume create containers_data
@@ -70,13 +69,13 @@ created using:
 docker network create containers_net
 ```
 
-Next, create a container from the MySQL image (replace `password` with the 
+Next, create a container from the MySQL image (replace `password` with the
 password you would like to use for the database):
 ```
 docker run -it -d -v mysql_data:/var/lib/mysql -v containers_config:/etc/mysql/conf.d --network containers_net --name containers-db -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 mysql
 ```
 
-This is a good time to initialize the database. First access the 
+This is a good time to initialize the database. First access the
 database inside the container:
 ```bash
 docker exec -ti containers-db bash
@@ -90,8 +89,8 @@ The database can be created using the following SQL statement:
 create database containers;
 ```
 
-There is a schema included in `sql/schema.sql` that creates a 
-testing database. To use this, update the database name at the 
+There is a schema included in `sql/schema.sql` that creates a
+testing database. To use this, update the database name at the
 end of the environment variable to `containers_test` and initialize
 the schema inside the Docker container using the following command:
 ```bash
@@ -108,7 +107,7 @@ docker exec -i containers-db mysql -u root -p"$CONTAINERS_DB_PASSWORD" < sql/sch
   `mysql` image (provided from Docker Hub), it uses the volumes
   for its data, the `containers_net` network for communication on port `3306`,
   and uses the the `root` login
-- After the container is created, the database is initialized using 
+- After the container is created, the database is initialized using
   `docker exec` to access MySQL within the `containers-db` instance
   and the test database can be initialized within the container as well
 
@@ -121,17 +120,17 @@ the database):
 docker run -d --name containers-api --network containers_net -e CONTAINERS_DB_URL=jdbc:mysql://containers-db:3306/containers -e CONTAINERS_DB_USERNAME=root -e CONTAINERS_DB_PASSWORD=password -p 8080:8080 containers:spring-boot
 ```
 
-With both of the containers running, the application homepage will be 
+With both of the containers running, the application homepage will be
 available at [this endpoint](http://localhost:8080/).
 
 #### Breakdown
 
-- The container is created from the `containers:spring-boot` image 
+- The container is created from the `containers:spring-boot` image
   with the name `containers-api`
-- It uses the `containers_net` network to communicate with the 
-  database with the environment variables provided and exposes port 
+- It uses the `containers_net` network to communicate with the
+  database with the environment variables provided and exposes port
   `8080`
-- The application will provide a homepage with the current date at 
+- The application will provide a homepage with the current date at
   [this endpoint](http://localhost:8080/)
 
 ### Sending an HTTP Request
@@ -176,7 +175,7 @@ request.
 
 ### Starting and Stopping the Application
 
-Now that the containers have been created, it is easy to start and stop 
+Now that the containers have been created, it is easy to start and stop
 the application.
 
 Open a terminal or command prompt and use the commands to start the
